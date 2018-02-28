@@ -1,13 +1,10 @@
-// Import jQuery & Rythm Js
-var imported = document.createElement('script');
-imported.src = 'https://code.jquery.com/jquery-3.3.1.min.js';
-document.head.appendChild(imported);
+// Import Rythm Js
 var imported1 = document.createElement('script');
 imported1.src = 'https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.3/rythm.min.js';
 document.head.appendChild(imported1);
 
 // Append rythm-bass class to each div
-$("div").addClass('rythm-bass');
+jQuery("div").addClass('rythm-bass');
 
 // Intialize Dancing
 
