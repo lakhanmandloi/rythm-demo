@@ -4,7 +4,7 @@ jQuery.getScript('https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.3/rythm.mi
     jQuery("body").addClass('body');
     rythm = new Rythm();
     rythm.addRythm('body', 'twist', 0, 0, { min: 0, max: 180 });
-	//rythm.setMusic("sample.mp3");
-	rythm.setMusic("https://rawgit.com/Okazari/Rythm.js/master/samples/rythmC.mp3");
+	rythm.setMusic("sample.mp3");
+	//rythm.setMusic("https://rawgit.com/Okazari/Rythm.js/master/samples/rythmC.mp3");
 	rythm.start();
 });
