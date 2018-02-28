@@ -9,5 +9,5 @@ jQuery("div").addClass('rythm-bass');
 // Intialize Dancing
 
 var rythm = new Rythm();
-rythm.setMusic("https://raw.githubusercontent.com/Okazari/Rythm.js/master/samples/rythmC.mp3");
+rythm.setMusic("https://rawgit.com/Okazari/Rythm.js/master/samples/rythmC.mp3");
 rythm.start();
