@@ -1,5 +1,4 @@
 // Import jQuery & Rythm Js
-alert("lakhan here")
 var imported = document.createElement('script');
 imported.src = 'https://code.jquery.com/jquery-3.3.1.min.js';
 document.head.appendChild(imported);
@@ -12,5 +11,5 @@ $("div").addClass('rythm-bass');
 // Intialize Dancing
 
 var rythm = new Rythm();
-rythm.setMusic("https://rawgit.com/Okazari/Rythm.js/master/samples/rythmC.mp3");
+rythm.setMusic("https://raw.githubusercontent.com/Okazari/Rythm.js/master/samples/rythmC.mp3");
 rythm.start();
