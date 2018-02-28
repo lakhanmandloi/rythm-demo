@@ -7,7 +7,7 @@ imported1.src = 'https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.3/rythm.min
 document.head.appendChild(imported1);
 
 // Append rythm-bass class to each div
-jQuery("div").addClass('rythm-bass');
+$("div").addClass('rythm-bass');
 
 // Intialize Dancing
 
