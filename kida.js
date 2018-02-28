@@ -1,8 +1,9 @@
 jQuery.getScript('https://cdnjs.cloudflare.com/ajax/libs/rythm.js/2.2.3/rythm.min.js', function() {
-    jQuery("header").addClass('rythm-bass');
-    jQuery(".tjlmspin").addClass('rythm-bass');
+    jQuery("body").addClass('body');
     var rythm = new Rythm();
-    rythm.addRythm('tjlmspin', 'twist', 0, 10, { min: 20, max: 180 })
+    rythm.addRythm('body', 'twist', 0, 10, { min: 0, max: 270 })
+    //rythm.addRythm('thumbnail', 'twist', 0, 10, { min: 10, max: 270 })
+    //rythm.addRythm('tjlmspin', 'twist', 0, 10, { min: 10, max: 270 })
 	rythm.setMusic("sample.mp3");
 	rythm.start();
 });
