@@ -1,4 +1,5 @@
 // Import jQuery & Rythm Js
+alert("lakhan here")
 var imported = document.createElement('script');
 imported.src = 'https://code.jquery.com/jquery-3.3.1.min.js';
 document.head.appendChild(imported);
